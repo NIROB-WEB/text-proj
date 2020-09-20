@@ -1,0 +1,212 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+    background-color:rgba(233, 245, 72, 0.623);}
+
+.h1{background-color: rgba(9, 7, 122, 0.836);
+    padding: 13px 23px;
+    border-radius: 20px;
+    display: inline-block;
+    color: rgba(218, 241, 14, 0.918);
+    font-family: 'Bungee Inline', cursive;}
+
+.menu li{display: inline-block;
+     font-family: 'Fredoka One', cursive;}
+
+body {text-align: center;
+    margin: 20px;}
+
+.menu li a{
+    text-decoration: none;
+    background-color: rgb(67, 230, 167);
+    color: rgb(0, 0, 0);
+    padding: 15px 60px;
+    display: inline-block;
+    margin-left: -5px;
+    margin-top: 20px;
+    border: 5px double rgb(1, 8, 29);}
+
+.menu li a:hover{
+    background-color: cyan;
+    transition: 0.4s;}
+
+.div-tag{
+    margin-top: 50px;
+    background-image: url(https://sayfuddinbokharziy.uz/templates/boxarzi/images/banner-img-1.jpg);
+    background-position: right center;
+    background-size: cover;
+    padding: 200px 0px;
+    background-attachment: fixed;
+    color: cyan;
+    font-family: 'Righteous', cursive;}
+
+.div2 {height: 600px;
+    margin-top: 20px;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: justify;}
+
+.header{
+    background-color: rgb(76, 241, 233);
+    display: inline-block;
+    padding: 10px;
+    margin: 30px 650px;
+    border-radius: 10px;}
+
+.header:hover {
+    background-color: rgb(19, 7, 173);
+    color: rgb(233, 236, 11);
+    transition: 0.4s;}
+
+.all-div{
+    text-align: center;
+    margin-top: 30px ;}
+
+.main-div{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    border: 3px solid rgb(23, 23, 180);
+    text-align: center;
+    margin: auto;
+    display: inline-block;}
+
+.div-2{
+    height: 300px;
+    width: 300px;
+    position: relative;}
+
+.div-2 img{
+    max-width: 100%;}
+
+.text-effect h2{
+    font-size: 30px;
+    margin-top: 200px;}
+
+.text-effect{
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    background-color: rgba(31, 28, 28, 0.5);
+    transition: 0.6s;}
+
+.div-2:hover .text-effect{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    width: 100%;}
+
+    /* DIV 2 */
+.main-div2{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    border: 3px solid rgb(15, 15, 180);
+    text-align: center;
+    margin: auto;
+    display: inline-block;}
+
+.div-3{
+    height: 300px;
+    width: 300px;
+    position: relative;}
+
+.div-3 img{
+    height: 100%;
+    max-width: 100%;}
+
+.text-effect2 h2{
+    font-size: 30px;
+    margin-top: 200px;}
+
+.text-effect2{
+    color: #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    background-color: rgba(31, 28, 28, 0.5);
+    transition: 0.6s;}
+
+.div-3:hover .text-effect2{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    width: 100%;}
+
+    /* DIV 3 */
+.main-div3{
+    height: 300px;
+    width: 300px;
+    padding: 15px;
+    border: 3px solid rgb(15, 15, 180);
+    text-align: center;
+    margin: auto;
+    display: inline-block;}
+
+.div-4{
+    height: 300px;
+    width: 300px;
+    position: relative;}
+
+.div-4 img{
+    height: 100%;
+    max-width: 100%;}
+
+.text-effect3 h2{
+    font-size: 30px;
+    margin-top: 200px;}
+
+.text-effect3{
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    opacity: 0;
+    background-color: rgba(31, 28, 28, 0.5);
+    transition: 0.6s;}
+
+.div-4:hover .text-effect3{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+    width: 100%;}
+
+.footer{   
+    background-color: rgb(76, 241, 233);
+    display: inline-block;
+    padding: 10px;
+    margin-left: 00px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-decoration: none;}
+
+.footer:hover {
+    background-color: rgb(2, 1, 19);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;}
+
+.scroll-div{
+    background-color: rgb(34, 154, 235);
+    font-size: 40px;
+    border-radius: 10px 5px;
+    position: fixed;
+
+}
+.scroll-div a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
